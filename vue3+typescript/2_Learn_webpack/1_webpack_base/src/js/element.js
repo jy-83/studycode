@@ -2,9 +2,4 @@ let divEl=document.createElement('div');
 divEl.innerHTML='你好,李银河';
 divEl.className='test';
 document.body.appendChild(divEl);
-let spanEl=document.createElement('span');
-spanEl.innerHTML='hello world';
-spanEl.className='title';
-document.body.appendChild(spanEl);
-import '../css/index.css';
-import '../css/title.scss';
+import '../css/index.css'
