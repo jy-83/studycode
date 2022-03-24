@@ -1,0 +1,9 @@
+$color:blue;
+$textDecoration:underline;
+.title{
+  color:$color;
+  text-decoration: $textDecoration;
+  display: flex;
+  user-select:none;
+  transform: translateX(100px);
+}
