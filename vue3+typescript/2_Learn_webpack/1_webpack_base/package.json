@@ -1,7 +1,6 @@
 {
   "name": "1_webpack_base",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack"
@@ -23,5 +22,6 @@
   "dependencies": {
     "css-loader": "^6.7.1",
     "postcss-loader": "^6.2.1"
-  }
+  },
+  "description": ""
 }

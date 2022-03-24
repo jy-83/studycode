@@ -1,0 +1,8 @@
+$flex:flex;
+$textDecoration:underline;
+.tip{
+  display: $flex;
+  text-decoration: $textDecoration;
+  background-color:purple;
+  color:white;
+}

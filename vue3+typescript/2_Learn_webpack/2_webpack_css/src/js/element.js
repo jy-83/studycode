@@ -1,0 +1,10 @@
+const divEl=document.createElement('div');
+divEl.innerHTML='hello webpack';
+divEl.className='title';
+document.body.appendChild(divEl);
+const spanEl=document.createElement('span');
+spanEl.innerHTML='hello coder';
+spanEl.className='tip';
+document.body.appendChild(spanEl);
+import '../css/title.css';
+import '../css/tip.scss';
