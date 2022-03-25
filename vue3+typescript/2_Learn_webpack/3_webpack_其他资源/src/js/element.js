@@ -16,3 +16,8 @@ document.body.appendChild(bgImg);
 const img=document.createElement('img');
 img.src=imgsrc;
 document.body.appendChild(img);
+const i=document.createElement('i');
+i.className='iconfont icon-ceshi';
+document.body.appendChild(i);
+import '../css/bg.scss'
+console.log(content.length)
