@@ -7,7 +7,7 @@ export default {
   name: "App",
   data() {
     return {
-      message: '我是测试'
+      message: '测试2'
     }
   },
   methods:{
@@ -19,5 +19,7 @@ export default {
 </script>
 
 <style scoped>
-
+div{
+  color:red
+}
 </style>
