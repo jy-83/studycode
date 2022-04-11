@@ -9,11 +9,20 @@
 <script src="./renderer.js"></script>
 <script>
    const el= h('div',{class:'蒋轶'},[
-        h('button',{onClick:()=>{console.log('+1')}},'+1'),
-        h('span',null,'0'),
-        h('button',{onClick:()=>{console.log('-1')}},'-1')
+       h('button',{onClick:()=>{console.log('+1')}},'+1'),
+       h('span',null,'0'),
+       h('button',{onClick:()=>{console.log('-1')}},'-1')
     ])
-   mount(el,'#app')
+   mount(el,'#app');
+   const el2=h('h2',{class:'周正雨'},[
+       h('button',{onClick:()=>{console.log('+1')}},'+1'),
+       h('span',null,'0'),
+       h('span',null,'测试'),
+       h('button',{onClick:()=>{console.log('-1')}},'-1')
+   ])
+   setTimeout(()=>{
+       patch(el,el2);
+   },2000)
 </script>
 </body>
 </html>
